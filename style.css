@@ -4,6 +4,7 @@ body{
  --primary-color:#F2C94C;
  font-family: 'Quicksand', sans-serif;
  margin:0px;
+ 
 }
 .boxed{
     border:1px solid black;
@@ -71,10 +72,10 @@ font-size:medium;
 
 .footer{
     
-    position: fixed;
+    
     bottom: 0;
     width: 100%;
-    padding: 0rem;
+    padding: 1rem;
     background-color: var(--primary-color);
     text-align: center;
     box-sizing: border-box;
