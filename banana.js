@@ -16,11 +16,12 @@ function clickhandler(){
     fetch(translationurl(input))
     .then(response => response.json())
     .then(json => {
-        var translatedText=json.contents.translated;
-        output.innerText=translatedText;
+        //var translatedText=json.contents.translated;
+        //output.innerText=translatedText;
+        console.log(json.contents.translated)
      })
     .catch(errorhandler)
-    output.innerText("hi")
+
 }
 button.addEventListener("click",clickhandler)
 
