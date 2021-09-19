@@ -1,0 +1,12 @@
+
+.boxed{
+    border:1px solid black;
+    border-radius: 0.5rem;
+    width:50%;
+    box-sizing: border-box;
+    height: 150px;
+}
+.button{
+    background-color:chocolate;
+    color: black;
+}
