@@ -8,7 +8,7 @@ return url+"?"+"text="+text;
 function errorhandler(error)
 {
     console.log("error")
-    alert("something wrong with the server try again")
+    alert("some error occured try again later!!")
 }
 function clickhandler(){
     console.log("clicked");
