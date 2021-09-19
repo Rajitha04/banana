@@ -1,14 +1,85 @@
 
+@import url('https://fonts.googleapis.com/css2?family=kalam&display=swap');
+body{
+ --primary-color:#F2C94C;
+ font-family: 'kalam', cursive;
+ margin:0px;
+}
 .boxed{
     border:1px solid black;
     border-radius: 0.5rem;
-    width:50%;
+   max-width:10%;
+   min-width:40%;
     padding:1rem;
-    margin:1rem;
-    display: block;
-    height: 150px;
+    display:block;
+    height: 100px;
+    margin: auto;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    
+
+    
 }
 .button{
-    background-color:chocolate;
+    background-color:var(--primary-color);
     color: black;
+    font-size: large;
+    display: block;
+    box-sizing: border-box;
+    padding: 1.5rem 4rem;
+    border: none;
+    margin:auto;
+    font-family: 'kalam', cursive;
+    
+    
 }
+.header{
+    text-align: center;
+color: black;
+padding:1.5rem;
+display: block;
+font-size: 2rem;
+box-sizing: border-box;
+background-color: var(--primary-color);
+}
+
+.div{
+text-align: center;
+margin-top: 0.5rem;
+font-weight:medium;
+}
+
+.footer{
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+}
+
+.p{
+    max-width: 600px;
+    margin:auto;
+    margin-bottom: 0.5rem;
+    font-weight:medium;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

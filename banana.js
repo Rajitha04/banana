@@ -1,7 +1,7 @@
 var button=document.querySelector("#button");
 var textarea=document.querySelector("#textarea")
 var output=document.querySelector("#output")
-var url="https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+var url="https://api.funtranslations.com/translate/minion.json";
 function translationurl(text){
 return url+"?"+"text="+text;
 }
